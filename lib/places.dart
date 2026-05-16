@@ -35,7 +35,6 @@ class _PlacesScreenState extends State<PlacesScreen> {
       });
       return;
     }
-
     setState(() {
       _query = _db.child('places').orderByChild('nameLower').startAt(q).endAt('$q\uf8ff');
     });
