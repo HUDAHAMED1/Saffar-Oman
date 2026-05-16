@@ -8,7 +8,6 @@ class ExploreScreen extends StatefulWidget {
   @override
   State<ExploreScreen> createState() => _ExploreScreenState();
 }
-
 class _ExploreScreenState extends State<ExploreScreen> {
   final DatabaseReference _db = FirebaseDatabase.instance.ref();
   final TextEditingController _search = TextEditingController();
