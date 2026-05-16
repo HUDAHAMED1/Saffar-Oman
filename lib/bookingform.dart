@@ -6,7 +6,7 @@ import 'package:geocoding/geocoding.dart';
 
 class BookingFormScreen extends StatefulWidget {
   const BookingFormScreen({super.key});
-
+  
   @override
   State<BookingFormScreen> createState() => _BookingFormScreenState();
 }
@@ -321,6 +321,7 @@ class _BookingFormScreenState extends State<BookingFormScreen> {
     bool readOnly = false,
     String hint = '',
   }) {
+    
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
@@ -352,7 +353,6 @@ class _BookingFormScreenState extends State<BookingFormScreen> {
       ],
     );
   }
-
   Widget _timeDropdown({
     required String label,
     required String value,
