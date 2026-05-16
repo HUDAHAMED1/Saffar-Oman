@@ -5,7 +5,6 @@ class SettingsScreen extends StatefulWidget {
   final SettingsController controller;
 
   const SettingsScreen({super.key, required this.controller});
-
   @override
   State<SettingsScreen> createState() => _SettingsScreenState();
 }
