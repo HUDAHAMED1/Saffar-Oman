@@ -9,7 +9,6 @@ class CartScreen extends StatefulWidget {
   @override
   State<CartScreen> createState() => _CartScreenState();
 }
-
 class _CartScreenState extends State<CartScreen> {
   late final DatabaseReference _cartRef;
 
