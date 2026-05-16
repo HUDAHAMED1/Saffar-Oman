@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 
 class ChooseAccountTypeScreen extends StatelessWidget {
   const ChooseAccountTypeScreen({super.key});
-
+  
   @override
   Widget build(BuildContext context) {
     return Scaffold(
