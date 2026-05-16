@@ -11,7 +11,6 @@ import 'package:path/path.dart' as p;
 
 class GuideRegistrationScreen extends StatefulWidget {
   const GuideRegistrationScreen({super.key});
-
   @override
   State<GuideRegistrationScreen> createState() =>
       _GuideRegistrationScreenState();
