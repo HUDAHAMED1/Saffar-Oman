@@ -4,7 +4,7 @@ import 'package:firebase_database/firebase_database.dart';
 
 class AppEntryScreen extends StatefulWidget {
   const AppEntryScreen({super.key});
-
+  
   @override
   State<AppEntryScreen> createState() => _AppEntryScreenState();
 }
