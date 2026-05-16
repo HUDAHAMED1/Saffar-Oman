@@ -7,14 +7,13 @@ import 'package:file_picker/file_picker.dart';
 
 class TouristEditProfile extends StatefulWidget {
   const TouristEditProfile({super.key});
-
+  
   @override
   State<TouristEditProfile> createState() => _TouristEditProfileState();
 }
 
 class _TouristEditProfileState extends State<TouristEditProfile> {
   final _formKey = GlobalKey<FormState>();
-
   final _fullName = TextEditingController();
   final _phone = TextEditingController();
   final _email = TextEditingController();
