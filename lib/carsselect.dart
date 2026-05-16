@@ -113,7 +113,6 @@ class _CarsSelectScreenState extends State<CarsSelectScreen> {
         color: Colors.black45,
       ),
     );
-
     return Container(
       margin: const EdgeInsets.only(bottom: 16),
       decoration: BoxDecoration(
