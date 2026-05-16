@@ -9,7 +9,6 @@ class Checkout extends StatefulWidget {
   @override
   State<Checkout> createState() => _CheckoutState();
 }
-
 class _CheckoutState extends State<Checkout> {
   final DatabaseReference _db = FirebaseDatabase.instance.ref();
 
