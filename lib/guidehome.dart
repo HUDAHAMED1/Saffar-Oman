@@ -9,7 +9,6 @@ class GuideHomeScreen extends StatelessWidget {
     if (!context.mounted) return;
     Navigator.pushNamedAndRemoveUntil(context, '/', (route) => false);
   }
-
   @override
   Widget build(BuildContext context) {
     final isDark = Theme.of(context).brightness == Brightness.dark;
